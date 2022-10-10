@@ -37,6 +37,6 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm ci
-          curl -vkL -o - https://github.com/intuit/auto/releases/download/v10.28.0/auto-linux.gz | gunzip > ./auto
+          curl -vkL -o - https://github.com/intuit/auto/releases/download/v10.37.6/auto-linux.gz | gunzip > ./auto
           chmod a+x ./auto
           ./auto shipit
