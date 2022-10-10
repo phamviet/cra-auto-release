@@ -2,6 +2,25 @@
 
 #### ⚠️ Pushed to `main`
 
+- no git-tag ([@phamviet](https://github.com/phamviet))
+- 0.0.1 ([@phamviet](https://github.com/phamviet))
+- Merge branch 'main' of github.com:phamviet/cra-auto-release ([@phamviet](https://github.com/phamviet))
+- publish.sh ([@phamviet](https://github.com/phamviet))
+- publishScript ([@phamviet](https://github.com/phamviet))
+- config ([@phamviet](https://github.com/phamviet))
+- Fuccc ([@phamviet](https://github.com/phamviet))
+- version-file again ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.2 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
 - publishScript ([@phamviet](https://github.com/phamviet))
 - config ([@phamviet](https://github.com/phamviet))
 - 0.0.1 ([@phamviet](https://github.com/phamviet))
