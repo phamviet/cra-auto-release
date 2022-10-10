@@ -1,0 +1,39 @@
+name: Auto release
+
+on: [push]
+
+jobs:
+  auto-release:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
+
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: yarn-deps-01-${{ hashFiles('yarn.lock') }}
+          restore-keys: |
+            yarn-deps-01-${{ hashFiles('yarn.lock') }}
+
+      - name: Setup auth
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+
+      - name: Auto Release
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm run auto shipit

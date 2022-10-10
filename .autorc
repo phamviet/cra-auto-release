@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    [
+      "exec",
+      {
+        "version": "npm version $ARG_0"
+      }
+    ]
+  ]
+}
