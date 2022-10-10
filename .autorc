@@ -1,7 +1,7 @@
 {
   "plugins": [
     "git-tag",
-    ["version-file", {"publishScript":"./.scripts/release.sh"}]
+    ["version-file", {"publishScript":"./.scripts/publish.sh"}]
   ],
   "owner": "phamviet",
   "repo": "cra-auto-release"
