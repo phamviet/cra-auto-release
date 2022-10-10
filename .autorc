@@ -1,5 +1,9 @@
 {
   "plugins": [
-      "version-file"
-    ]
+    "git-tag"
+  ],
+  "owner": "phamviet",
+  "repo": "cra-auto-release",
+  "name": "Viet",
+  "email": "viet@webonyx.com"
 }
