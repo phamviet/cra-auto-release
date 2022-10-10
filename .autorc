@@ -1,11 +1,5 @@
 {
   "plugins": [
-    [
-      "exec",
-      {
-        "version": "printenv && npm version $ARG_0 && git commit -am Bump version to: v${ARG_0} [skip ci]",
-      },
-      "git-tag"
+      "version-file", {"releaseScript":"./.script/release.sh"}
     ]
-  ]
 }
