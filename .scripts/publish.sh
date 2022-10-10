@@ -10,4 +10,4 @@ VERSION=$(cat ./VERSION)
 
 # shellcheck disable=SC2046
 npm --no-git-tag-version version "$VERSION"
-git comit -am "Bump package.json version to v${VERSION} [skip ci]"
+git commit -am "Bump package.json version to v${VERSION} [skip ci]"
