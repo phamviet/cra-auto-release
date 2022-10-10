@@ -6,6 +6,8 @@ echo RUNNING FROM "$0"
 
 npm run build
 
-# shellcheck disable=SC2046
-npm version $(cat ./VERSION) -m "Bump version [skip ci]"
+VERSION=$(cat ./VERSION)
 
+# shellcheck disable=SC2046
+npm --no-git-tag-version version "$VERSION"
+git comit -am "Bump package.json version to v${VERSION} [skip ci]"
