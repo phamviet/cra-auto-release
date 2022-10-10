@@ -2,6 +2,22 @@
 
 #### ⚠️ Pushed to `main`
 
+- publishScript ([@phamviet](https://github.com/phamviet))
+- config ([@phamviet](https://github.com/phamviet))
+- 0.0.1 ([@phamviet](https://github.com/phamviet))
+- Fuccc ([@phamviet](https://github.com/phamviet))
+- version-file again ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.2 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
 - 0.0.1 (viet@webonyx.com)
 - Fuccc (viet@webonyx.com)
 - version-file again (viet@webonyx.com)
