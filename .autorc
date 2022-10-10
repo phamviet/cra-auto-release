@@ -1,6 +1,5 @@
 {
   "plugins": [
-    "git-tag",
     ["version-file", {"publishScript":"./.scripts/publish.sh"}]
   ],
   "owner": "phamviet",
