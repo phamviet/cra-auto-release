@@ -1,9 +1,8 @@
 {
   "plugins": [
     "git-tag"
+    "version-file", {"releaseScript":"./.script/release.sh"}
   ],
   "owner": "phamviet",
-  "repo": "cra-auto-release",
-  "name": "Viet",
-  "email": "viet@webonyx.com"
+  "repo": "cra-auto-release"
 }
