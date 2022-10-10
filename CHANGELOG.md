@@ -1,3 +1,15 @@
+# v0.0.4 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- build ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.3 (Mon Oct 10 2022)
 
 #### ⚠️ Pushed to `main`
