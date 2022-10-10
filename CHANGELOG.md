@@ -1,3 +1,15 @@
+# v0.0.8 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- standalone auto ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.7 (Mon Oct 10 2022)
 
 #### ⚠️ Pushed to `main`
