@@ -1,3 +1,16 @@
+# v0.0.9 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:phamviet/cra-auto-release ([@phamviet](https://github.com/phamviet))
+- curl quite ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.8 (Mon Oct 10 2022)
 
 #### ⚠️ Pushed to `main`
