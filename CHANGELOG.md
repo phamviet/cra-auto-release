@@ -1,3 +1,17 @@
+# v0.0.2 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- 0.0.1 (viet@webonyx.com)
+- Fuccc (viet@webonyx.com)
+- version-file again (viet@webonyx.com)
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.1 (Mon Oct 10 2022)
 
 #### ⚠️ Pushed to `main`
