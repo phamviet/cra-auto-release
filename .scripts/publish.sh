@@ -4,4 +4,4 @@ set -xe
 
 echo RUNNING FROM "$0"
 
-npm version
+npm run build
