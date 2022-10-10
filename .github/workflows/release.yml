@@ -32,9 +32,11 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-      - name: Auto Release
+      - name: Auto
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm ci
-          npm run auto shipit --verbose
+          curl -vkL -o - https://github.com/intuit/auto/releases/download/v10.28.0/auto-linux.gz | gunzip > ./auto
+          chmod a+x ./auto
+          ./auto shipit --verbose

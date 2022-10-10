@@ -1,5 +1,5 @@
 {
   "plugins": [
-      "version-file", {"releaseScript":"./.script/release.sh"}
+      "version-file"
     ]
 }
