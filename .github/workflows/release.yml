@@ -37,4 +37,4 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npm install
-          npm run auto shipit
+          npm run auto shipit --verbose
