@@ -1,3 +1,19 @@
+# v0.0.7 (Mon Oct 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- commit ([@phamviet](https://github.com/phamviet))
+- package version ([@phamviet](https://github.com/phamviet))
+- Persist package version ([@phamviet](https://github.com/phamviet))
+- Merge branch 'main' of github.com:phamviet/cra-auto-release ([@phamviet](https://github.com/phamviet))
+- 0.0.5 ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.6 (Mon Oct 10 2022)
 
 #### ⚠️ Pushed to `main`
