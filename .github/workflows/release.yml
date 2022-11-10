@@ -31,7 +31,7 @@ jobs:
 
       - name: Prepare auto
         run: |
-          yarn global add -D auto@10.37.6 auto-plugin-package-json
+          yarn global add auto@10.37.6 auto-plugin-package-json
 
       - name: "Manual release"
         if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'main' }}
