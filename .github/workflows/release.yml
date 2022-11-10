@@ -1,9 +1,12 @@
-name: Auto release
+name: Release
 
-on: [push]
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
 
 jobs:
-  auto-release:
+  release:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     env:
@@ -25,6 +28,15 @@ jobs:
           key: yarn-deps-01-${{ hashFiles('yarn.lock') }}
           restore-keys: |
             yarn-deps-01-${{ hashFiles('yarn.lock') }}
+
+      - name: "Yarn install"
+        run: |
+          yarn add -D auto auto-plugin-node
+
+      - name: "Manual release"
+        if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'main' }}
+        run: |
+          yarn auto latest --verbose
 
       - name: Auto
         run: |
