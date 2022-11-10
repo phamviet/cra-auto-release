@@ -1,3 +1,20 @@
+# v0.0.11 (Thu Nov 10 2022)
+
+#### 🐛 Bug Fix
+
+- Fix action 2 [#1](https://github.com/phamviet/cra-auto-release/pull/1) ([@phamviet](https://github.com/phamviet))
+
+#### ⚠️ Pushed to `main`
+
+- omit-commits ([@phamviet](https://github.com/phamviet))
+- Fix action 2 ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.10 (Thu Nov 10 2022)
 
 #### 🐛 Bug Fix
