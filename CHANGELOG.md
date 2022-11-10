@@ -1,3 +1,16 @@
+# v0.0.12 (Thu Nov 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Reset git after yarn ([@phamviet](https://github.com/phamviet))
+- @10.37.6 ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.11 (Thu Nov 10 2022)
 
 #### 🐛 Bug Fix
