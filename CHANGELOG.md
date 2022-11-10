@@ -1,3 +1,15 @@
+# v0.0.20 (Thu Nov 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- no git reset ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.19 (Thu Nov 10 2022)
 
 #### ⚠️ Pushed to `main`
