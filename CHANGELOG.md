@@ -1,3 +1,15 @@
+# v0.0.15 (Thu Nov 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- printenv ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.14 (Thu Nov 10 2022)
 
 #### ⚠️ Pushed to `main`
