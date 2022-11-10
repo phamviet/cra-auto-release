@@ -7,17 +7,16 @@ jobs:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Prepare repository
         run: git fetch --unshallow --tags
 
-      - name: Use Node.js 14.x
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
         with:
-          node-version: 14.x
+          node-version: 16
 
       - name: Cache node modules
         uses: actions/cache@v1
@@ -27,16 +26,7 @@ jobs:
           restore-keys: |
             yarn-deps-01-${{ hashFiles('yarn.lock') }}
 
-      - name: Setup git
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-
       - name: Auto
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npm ci
-          curl -L -o - https://github.com/intuit/auto/releases/download/v10.37.6/auto-linux.gz | gunzip > ./auto
-          chmod a+x ./auto
-          ./auto shipit --verbose
+          yarn install --frozen-lockfile
+          yarn auto latest --verbose
