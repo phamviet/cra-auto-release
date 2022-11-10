@@ -4,10 +4,13 @@ set -xe
 
 echo RUNNING FROM "$0"
 
-npm run build
+set -xe
 
-VERSION=$(cat ./VERSION)
+remote=${2}
+branch=${3}
 
-# shellcheck disable=SC2046
-npm --no-git-tag-version version "$VERSION"
-git commit -am "Bump package.json version to v${VERSION} [skip ci]"
+set -xe
+
+git checkout develop
+git merge "$branch" -m "Merge branch $branch [skip ci]"
+git push "$remote" develop

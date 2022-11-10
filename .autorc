@@ -1,7 +1,8 @@
 {
   "plugins": [
-    ["version-file", {"publishScript":"./.scripts/publish.sh"}]
+    ["node", {"publishScript":"./.scripts/publish.sh"}],
+    ["omit-commits", {"username":["github-actions[bot]"], "subject": ["WIP"]}]
   ],
-  "owner": "phamviet",
-  "repo": "cra-auto-release"
+  "baseBranch": "main",
+  "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 }
