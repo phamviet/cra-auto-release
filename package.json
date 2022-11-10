@@ -37,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "@auto-it/omit-commits": "^10.37.6",
     "auto": "^10.37.6",
     "auto-plugin-node": "^0.0.1"
   }
