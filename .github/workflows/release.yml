@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -40,5 +40,4 @@ jobs:
 
       - name: Auto
         run: |
-          yarn install --frozen-lockfile
           yarn auto latest --verbose
