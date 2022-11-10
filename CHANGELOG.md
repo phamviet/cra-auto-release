@@ -1,5 +1,20 @@
 # v0.0.10 (Thu Nov 10 2022)
 
+#### 🐛 Bug Fix
+
+- Fix action ([@phamviet](https://github.com/phamviet))
+- Setup node plugin ([@phamviet](https://github.com/phamviet))
+- Switch yarn ([@phamviet](https://github.com/phamviet))
+- Add auto ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.10 (Thu Nov 10 2022)
+
 #### ⚠️ Pushed to `main`
 
 - Switch yarn (phamviet@users.noreply.github.com)
