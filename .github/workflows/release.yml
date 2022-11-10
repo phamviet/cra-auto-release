@@ -31,7 +31,7 @@ jobs:
 
       - name: "Yarn install"
         run: |
-          yarn add -D auto auto-plugin-node
+          yarn add -D auto@10.37.6 @auto-it/omit-commits@10.37.6 auto-plugin-node
 
       - name: "Manual release"
         if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'main' }}
