@@ -1,3 +1,16 @@
+# v0.0.13 (Thu Nov 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:phamviet/cra-auto-release ([@phamviet](https://github.com/phamviet))
+- Remove omit-commits ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.12 (Thu Nov 10 2022)
 
 #### ⚠️ Pushed to `main`
