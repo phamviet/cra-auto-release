@@ -1,3 +1,16 @@
+# v0.0.10 (Thu Nov 10 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Switch yarn (phamviet@users.noreply.github.com)
+- Add auto (phamviet@users.noreply.github.com)
+
+#### Authors: 1
+
+- Viet Pham (phamviet@users.noreply.github.com)
+
+---
+
 # v0.0.9 (Mon Oct 10 2022)
 
 #### ⚠️ Pushed to `main`
