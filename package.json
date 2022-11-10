@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "auto": "^10.37.6",
-    "auto-plugin-node": "^0.0.1"
+    "auto-plugin-package-json": "^0.0.1"
   }
 }
