@@ -7,4 +7,8 @@ phases:
   build:
     commands:
       - printenv
+      - echo "@webonyx:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+      - echo "//npm.pkg.github.com/:_authToken=$GITHUB_TOKEN" >> ~/.npmrc
+      - cat ~/.npmrc
+      - yarn add @webonyx/react-atlas@^2.1.21,
       - yarn install
