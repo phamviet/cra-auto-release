@@ -95,6 +95,16 @@
     url-join "^4.0.0"
     user-home "^2.0.0"
 
+"@auto-it/omit-commits@^10.37.6":
+  version "10.37.6"
+  resolved "https://registry.yarnpkg.com/@auto-it/omit-commits/-/omit-commits-10.37.6.tgz#71759945bef818d9ae086f637f0f05f7c5c4fda6"
+  integrity sha512-Lw2Z5S5p+eje6N3+AswKn7rX8h1+SJvgttdNO2+SyZVxhLyUOKKS46n27w2gOilf1RdmjViDfhbGwFk+AHaGNQ==
+  dependencies:
+    "@auto-it/core" "10.37.6"
+    fp-ts "^2.5.3"
+    io-ts "^2.1.2"
+    tslib "2.1.0"
+
 "@auto-it/package-json-utils@10.37.6":
   version "10.37.6"
   resolved "https://registry.yarnpkg.com/@auto-it/package-json-utils/-/package-json-utils-10.37.6.tgz#442716eff1a82d39326e905d29fc1fba7155db77"
@@ -2951,7 +2961,7 @@ auto-plugin-node@^0.0.1:
     semver "^7.0.0"
     tslib "2.1.0"
 
-auto@10.37.6:
+auto@^10.37.6:
   version "10.37.6"
   resolved "https://registry.yarnpkg.com/auto/-/auto-10.37.6.tgz#3bc64d60afac2cb713a0192a4f89d64816db26c7"
   integrity sha512-zMLsXz/WPqSlNVlY6g1GlFyhow+x//htR2QwWYSxB4DvAFNggXnK6aRqJ1DrcjhtUAPL2ngw5hHHrCgHvyvAaw==
