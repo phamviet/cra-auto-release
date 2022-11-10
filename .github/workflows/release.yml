@@ -29,7 +29,7 @@ jobs:
           restore-keys: |
             yarn-deps-01-${{ hashFiles('yarn.lock') }}
 
-      - name: "Yarn install"
+      - name: Prepare auto
         run: |
           yarn add -D auto@10.37.6 auto-plugin-node
           git reset --hard
