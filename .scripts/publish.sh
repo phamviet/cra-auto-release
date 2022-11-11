@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
-set -xe
-
 echo RUNNING FROM "$0"
-
-set -xe
 
 remote=${2}
 branch=${3}
