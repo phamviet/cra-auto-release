@@ -1,3 +1,18 @@
+# v0.0.28 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- Restore release label ([@phamviet](https://github.com/phamviet))
+- no release label found ([@phamviet](https://github.com/phamviet))
+- no release label ([@phamviet](https://github.com/phamviet))
+- No verbose ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.27 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
