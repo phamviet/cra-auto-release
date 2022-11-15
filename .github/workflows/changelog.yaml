@@ -9,7 +9,7 @@ jobs:
   auto:
     name: Changelog
     runs-on: ubuntu-latest
-    if: ${{ github.head_ref == 'develop' || startsWith(github.head_ref, 'release/') }}
+    if: ${{ github.head_ref == 'develop' || startsWith(github.head_ref, 'release') }}
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VIET_PAT_TOKEN: ${{ secrets.MY_GITHUB_PAT }}
@@ -38,10 +38,9 @@ jobs:
         PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
         if yarn auto label --pr $PR_NUMBER --exists release; then
           yarn auto changelog
-          git pull --rebase
           git push
           sleep 5
-          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --merge
+          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --squash --delete-branch
           echo The PR should be merged
         else
           echo [Skipped] No "release" label found
