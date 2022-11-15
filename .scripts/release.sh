@@ -4,4 +4,4 @@
 
 today=$(date +"%m-%d-%Y")
 
-gh pr create --base master --head develop --label release --title "Release $today" --fill
+gh pr create --base master --head develop --label release --label enhancement --title "Release $today" --fill
