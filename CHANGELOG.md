@@ -1,3 +1,15 @@
+# v0.0.27 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- Restore PR_NUMBER ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.26 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
