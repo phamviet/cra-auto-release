@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@v3
       with:
         fetch-depth: 10
-        ref: develop
+        ref: ${{ github.head_ref }}
         token: ${{ secrets.MY_GITHUB_PAT }}
 
     - name: Prepare repository
@@ -35,10 +35,7 @@ jobs:
     - name: "Make changelog"
       run: |
         set -xe
-        pull_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
-        label=$(gh pr view $pull_number --json labels --jq '.labels[].name|select(. == "release")')
-        
-        if [[ "release" == "$label" ]]; then
+        if yarn auto label --exists release; then
           yarn auto changelog --verbose
           git push origin $GITHUB_HEAD_REF
           sleep 5

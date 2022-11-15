@@ -1,3 +1,16 @@
+# v0.0.25 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- feat: add release script ([@phamviet](https://github.com/phamviet))
+- feat: use auto label ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.24 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
