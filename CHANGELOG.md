@@ -2,6 +2,21 @@
 
 #### 🐛 Bug Fix
 
+- no squash merge ([@phamviet](https://github.com/phamviet))
+- Merge remote-tracking branch 'origin/master' into develop ([@phamviet](https://github.com/phamviet))
+- Release 2022-11-15-Novh11m1668498733s [#16](https://github.com/phamviet/cra-auto-release/pull/16) ([@phamviet](https://github.com/phamviet) [@github-actions[bot]](https://github.com/github-actions[bot]))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.33 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
 - squash merge ([@phamviet](https://github.com/phamviet))
 
 #### Authors: 1
