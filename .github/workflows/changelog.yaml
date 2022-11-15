@@ -9,7 +9,7 @@ jobs:
   auto:
     name: Changelog
     runs-on: ubuntu-latest
-    if: ${{ github.head_ref == 'develop' || startsWith('release/', github.head_ref) }}
+    if: ${{ github.head_ref == 'develop' || startsWith(github.head_ref, 'release/') }}
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       VIET_PAT_TOKEN: ${{ secrets.MY_GITHUB_PAT }}
