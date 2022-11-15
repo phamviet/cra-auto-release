@@ -1,3 +1,15 @@
+# v0.0.29 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- Remove labeled event ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.28 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
