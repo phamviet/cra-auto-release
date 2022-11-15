@@ -2,7 +2,7 @@
 
 # Usage ./scripts/release.sh
 
-today=$(date +"%m-%d-%Y")
+today=$(date +"%F %T")
 branch="release/release-$today"
 
 git checkout develop
