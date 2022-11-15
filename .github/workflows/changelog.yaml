@@ -40,7 +40,7 @@ jobs:
           yarn auto changelog
           git push
           sleep 5
-          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --squash --delete-branch
+          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --delete-branch
           echo The PR should be merged
         else
           echo [Skipped] No "release" label found
