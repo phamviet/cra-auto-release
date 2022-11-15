@@ -7,7 +7,7 @@ on:
 
 jobs:
   auto:
-    name: Auto
+    name: changelog
     runs-on: ubuntu-latest
     if: ${{ github.head_ref == 'develop' && !contains(github.event.head_commit.message, 'skip ci') }}
     env:
