@@ -8,5 +8,5 @@ branch=${3}
 set -xe
 
 git checkout develop
-git merge "$branch" -m "Merge branch $branch [skip ci]"
+git merge --no-ff "$branch" -m "Merge branch $branch [skip ci]"
 git push "$remote" develop

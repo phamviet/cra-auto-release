@@ -6,17 +6,17 @@
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
       {
-          "name": "feature",
+          "name": "feat",
           "changelogTitle": "🚀 New Feature",
           "description": "Increment the patch version when merged",
           "releaseType": "patch",
-          "color": "#F1A60E"
+          "color": "#1D76DB"
         },
         {
           "name": "release",
           "description": "Increment the patch version when merged",
           "releaseType": "patch",
-          "color": "#F1A60E"
+          "color": "#0E8A16"
         }
     ]
 }
