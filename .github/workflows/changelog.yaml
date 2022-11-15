@@ -1,0 +1,48 @@
+name: Changelog
+
+on:
+  pull_request:
+    types: [ opened, labeled ]
+    branches: [ master ]
+
+jobs:
+  auto:
+    name: Auto
+    runs-on: ubuntu-latest
+    if: ${{ github.head_ref == 'develop' && !contains(github.event.head_commit.message, 'skip ci') }}
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      VIET_PAT_TOKEN: ${{ secrets.MY_GITHUB_PAT }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 10
+        ref: develop
+        token: ${{ secrets.MY_GITHUB_PAT }}
+
+    - name: Prepare repository
+      run: git fetch --depth 100 --tags
+
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - name: Prepare auto
+      run: |
+        yarn global add auto@10.37.6 auto-plugin-package-json
+
+    - name: "Make changelog"
+      run: |
+        set -xe
+        pull_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+        label=$(gh pr view $pull_number --json labels --jq '.labels[].name|select(. == "release")')
+        
+        if [[ "release" == "$label" ]]; then
+          yarn auto changelog --verbose
+          git push origin $GITHUB_HEAD_REF
+          sleep 5
+          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $pull_number --auto --merge
+          echo The PR should be merged
+        fi
+        
