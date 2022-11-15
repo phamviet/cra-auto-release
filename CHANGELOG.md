@@ -1,3 +1,16 @@
+# v0.0.24 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- Add changelog ([@phamviet](https://github.com/phamviet))
+- del version [#2](https://github.com/phamviet/cra-auto-release/pull/2) ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.23 (Fri Nov 11 2022)
 
 #### ⚠️ Pushed to `main`

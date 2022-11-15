@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 jobs:
@@ -13,9 +13,11 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 10
 
       - name: Prepare repository
-        run: git fetch --unshallow --tags
+        run: git fetch --depth 10 --tags
 
       - uses: actions/setup-node@v3
         with:
@@ -34,10 +36,10 @@ jobs:
           yarn global add auto@10.37.6 auto-plugin-package-json
 
       - name: "Manual release"
-        if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'main' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'master' }}
         run: |
           yarn auto latest --verbose
 
       - name: Auto
         run: |
-          yarn auto latest --verbose
+          yarn auto latest  --no-changelog --verbose
