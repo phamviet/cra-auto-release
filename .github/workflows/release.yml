@@ -42,4 +42,4 @@ jobs:
 
       - name: Auto
         run: |
-          yarn auto latest  --no-changelog --verbose
+          yarn auto latest --no-changelog

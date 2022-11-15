@@ -37,7 +37,7 @@ jobs:
         set -xe
         PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
         if yarn auto label --pr $PR_NUMBER --exists release; then
-          yarn auto changelog --verbose
+          yarn auto changelog
           git pull --rebase origin $GITHUB_HEAD_REF
           git push -u origin $GITHUB_HEAD_REF
           sleep 5
