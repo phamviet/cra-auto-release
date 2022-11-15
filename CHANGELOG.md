@@ -1,3 +1,15 @@
+# v0.0.33 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- squash merge ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.32 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
