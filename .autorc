@@ -11,6 +11,12 @@
           "description": "Increment the patch version when merged",
           "releaseType": "patch",
           "color": "#F1A60E"
+        },
+        {
+          "name": "release",
+          "description": "Increment the patch version when merged",
+          "releaseType": "patch",
+          "color": "#F1A60E"
         }
     ]
 }

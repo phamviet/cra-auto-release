@@ -13,6 +13,6 @@ git checkout -b "$branch"
 
 git push -u origin "$branch"
 
-gh pr create --base master --head "$branch" --label release --label enhancement --title "Release $today" --fill
+gh pr create --base master --head "$branch" --label release --label feature --title "Release $today" --fill
 
 git checkout develop
