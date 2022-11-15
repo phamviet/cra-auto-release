@@ -1,3 +1,16 @@
+# v0.0.36 (Tue Nov 15 2022)
+
+#### 🚀 New Feature
+
+- no deletion ([@phamviet](https://github.com/phamviet))
+- test --no-ff ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.35 (Tue Nov 15 2022)
 
 #### 🚀 New Feature
