@@ -37,6 +37,7 @@ jobs:
         set -xe
         if yarn auto label --exists release; then
           yarn auto changelog --verbose
+          git pull --rebase origin $GITHUB_HEAD_REF
           git push origin $GITHUB_HEAD_REF
           sleep 5
           GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $pull_number --auto --merge
