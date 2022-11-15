@@ -1,3 +1,15 @@
+# v0.0.34 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- timestamp ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.33 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
