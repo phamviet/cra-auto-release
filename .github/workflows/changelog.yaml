@@ -39,8 +39,8 @@ jobs:
         if yarn auto label --pr $PR_NUMBER --exists release; then
           yarn auto changelog
           git push
-          sleep 5
-          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --squash --delete-branch
+          sleep 3
+          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --merge --delete-branch
           echo The PR should be merged
         else
           echo [Skipped] No "release" label found
