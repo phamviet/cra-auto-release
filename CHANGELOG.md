@@ -1,3 +1,15 @@
+# v0.0.37 (Tue Nov 15 2022)
+
+#### 🚀 New Feature
+
+- ff ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.36 (Tue Nov 15 2022)
 
 #### 🚀 New Feature
