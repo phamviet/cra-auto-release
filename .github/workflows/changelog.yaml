@@ -37,11 +37,14 @@ jobs:
         set -xe
         PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
         if yarn auto label --pr $PR_NUMBER --exists release; then
-          yarn auto changelog --verbose
+          yarn auto changelog
           git pull --rebase origin $GITHUB_HEAD_REF
           git push -u origin $GITHUB_HEAD_REF
           sleep 5
           GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --merge
           echo The PR should be merged
+        else
+          echo [Skipped] No "release" label found
+          exit 0
         fi
         
