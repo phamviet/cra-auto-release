@@ -1,3 +1,16 @@
+# v0.0.26 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- add enhancement label ([@phamviet](https://github.com/phamviet))
+- feat: pull before push ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.25 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
