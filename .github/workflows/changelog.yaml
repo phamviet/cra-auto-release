@@ -44,7 +44,7 @@ jobs:
           GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --merge
           echo The PR should be merged
         else
-          echo No "release" label found
+          echo [Skipped] No "release" label found
           exit 0
         fi
         
