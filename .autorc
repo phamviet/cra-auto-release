@@ -3,5 +3,14 @@
     ["package-json", {"publishScript":"./.scripts/publish.sh"}]
   ],
   "baseBranch": "main",
-  "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+  "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
+  "labels": [
+      {
+          "name": "feature",
+          "changelogTitle": "🚀 New Feature",
+          "description": "Increment the patch version when merged",
+          "releaseType": "patch",
+          "color": "#F1A60E"
+        }
+    ]
 }
