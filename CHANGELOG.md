@@ -1,3 +1,17 @@
+# v0.0.32 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- time ([@phamviet](https://github.com/phamviet))
+- Fix startsWith ([@phamviet](https://github.com/phamviet))
+- Test release branch ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.31 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
