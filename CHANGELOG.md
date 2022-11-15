@@ -1,3 +1,15 @@
+# v0.0.31 (Tue Nov 15 2022)
+
+#### 🐛 Bug Fix
+
+- Changelog ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.30 (Tue Nov 15 2022)
 
 #### 🐛 Bug Fix
