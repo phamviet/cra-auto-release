@@ -1,3 +1,15 @@
+# v0.0.55 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- fix missing changelog update commits ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.54 (Wed Nov 16 2022)
 
 #### ⚠️ Added
