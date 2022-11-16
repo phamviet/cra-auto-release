@@ -1,3 +1,16 @@
+# v0.0.52 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
+- 123 ([@phamviet](https://github.com/phamviet))
+- feat: aaa ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.51 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `develop`
