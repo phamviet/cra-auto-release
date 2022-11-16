@@ -1,3 +1,30 @@
+# v0.0.52 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
+- 123 ([@phamviet](https://github.com/phamviet))
+- feat: aaa ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.51 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
+- dummp ([@phamviet](https://github.com/phamviet))
+- Merge branch 'develop' of github.com:phamviet/cra-auto-release into develop ([@phamviet](https://github.com/phamviet))
+- feat: Add feature ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.50 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `develop`
