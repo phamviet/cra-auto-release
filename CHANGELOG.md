@@ -1,3 +1,15 @@
+# v0.0.50 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
+- eeee ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.49 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
