@@ -8,14 +8,12 @@
         {
           "name": "feature",
           "changelogTitle": "⚠️ Added",
-          "description": "N/A",
           "releaseType": "patch",
           "color": "#0E8A16"
         },
         {
           "name": "pushToBaseBranch",
-          "changelogTitle": "⚠️ Pushed to `develop`",
-          "description": "N/A",
+          "changelogTitle": "⚠️ Updated",
           "releaseType": "patch",
           "color": "#0E8A16"
         },
