@@ -2,6 +2,19 @@
 
 #### 🚀 New Feature
 
+- sleep 5 ([@phamviet](https://github.com/phamviet))
+- minimized setup ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.40 (Wed Nov 16 2022)
+
+#### 🚀 New Feature
+
 - minimized setup ([@phamviet](https://github.com/phamviet))
 
 #### Authors: 1
