@@ -26,7 +26,7 @@ jobs:
 
     - name: Install auto
       run: |
-        npm install --global --no-fund --no-audit auto@10.37.6 @auto-it/conventional-commits@10.37.6 auto-plugin-package-json retry-cli
+        yarn global add auto@10.37.6 auto-plugin-package-json retry-cli
 
     - name: "Make changelog"
       run: |

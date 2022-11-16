@@ -1,3 +1,27 @@
+# v0.0.45 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- Switch to yarn ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.44 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- feat: eslint ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.43 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
