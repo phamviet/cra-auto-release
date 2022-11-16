@@ -1,3 +1,15 @@
+# v0.0.39 (Wed Nov 16 2022)
+
+#### 🚀 New Feature
+
+- npm global ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.38 (Wed Nov 16 2022)
 
 #### 🚀 New Feature
