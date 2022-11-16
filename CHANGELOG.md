@@ -2,6 +2,20 @@
 
 #### ⚠️ Pushed to `develop`
 
+- Remove releaseType (phamviet@users.noreply.github.com)
+- Remove default (phamviet@users.noreply.github.com)
+- Again pushToBaseBranch (phamviet@users.noreply.github.com)
+
+#### Authors: 1
+
+- Viet Pham (phamviet@users.noreply.github.com)
+
+---
+
+# v0.0.49 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
 - Remove default (phamviet@users.noreply.github.com)
 - Again pushToBaseBranch (phamviet@users.noreply.github.com)
 
