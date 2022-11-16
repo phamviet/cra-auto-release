@@ -26,7 +26,7 @@ jobs:
 
     - name: Install auto
       run: |
-        npm install --global --no-fund --no-audit auto@10.37.6 auto-plugin-package-json
+        npm install --global --no-fund --no-audit auto@10.37.6 auto-plugin-package-json retry-cli
 
     - name: "Make changelog"
       run: |
@@ -34,7 +34,7 @@ jobs:
           auto changelog
           git push
           sleep 5
-          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge ${{github.event.number}} --auto --merge
+          GH_TOKEN=$VIET_PAT_TOKEN retry -n 5 -- gh pr merge ${{github.event.number}} --auto --merge
           echo The PR should be merged
         else
           echo [Skipped] No "release" label found
