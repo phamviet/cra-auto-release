@@ -9,7 +9,7 @@
           "name": "feature",
           "changelogTitle": "⚠️ Added",
           "releaseType": "patch",
-          "color": "#0E8A16"
+          "color": "#006B75"
         },
         {
           "name": "pushToBaseBranch",
