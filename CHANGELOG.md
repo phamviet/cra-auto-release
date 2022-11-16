@@ -28,6 +28,19 @@
 
 #### ⚠️ Pushed to `develop`
 
+- fix: asss (phamviet@users.noreply.github.com)
+- feat: test feature (phamviet@users.noreply.github.com)
+
+#### Authors: 1
+
+- Viet Pham (phamviet@users.noreply.github.com)
+
+---
+
+# v0.0.53 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
 - feat: test feature (phamviet@users.noreply.github.com)
 
 #### Authors: 1
