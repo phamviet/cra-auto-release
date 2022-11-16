@@ -1,5 +1,18 @@
 # v0.0.53 (Wed Nov 16 2022)
 
+#### 🐛 Bug Fix
+
+- fix: conventional commits ([@phamviet](https://github.com/phamviet))
+- fix: asss ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.53 (Wed Nov 16 2022)
+
 #### ⚠️ Added
 
 - feat: test feature (phamviet@users.noreply.github.com)
