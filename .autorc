@@ -9,6 +9,8 @@
           "name": "pushToBaseBranch",
           "changelogTitle": "⚠️ Pushed to `develop`",
           "description": "N/A",
+          "releaseType": "patch",
+          "default": true,
           "color": "#0E8A16"
         },
         {
