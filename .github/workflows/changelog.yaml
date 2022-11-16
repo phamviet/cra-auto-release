@@ -26,14 +26,15 @@ jobs:
 
     - name: Prepare auto
       run: |
-        npm install --no-fund --no-audit auto@10.37.6
+        npm install --global --no-fund --no-audit auto@10.37.6
 
     - name: "Make changelog"
       run: |
-        auto=./node_modules/.bin/auto
+        which auto
+        export PATH="$(npm bin -g):$PATH"
         set -xe
-        if $auto label --pr ${{github.event.number}} --exists release; then
-          $auto changelog
+        if auto label --pr ${{github.event.number}} --exists release; then
+          auto changelog
           git push
           sleep 3
           GH_TOKEN=$VIET_PAT_TOKEN gh pr merge ${{github.event.number}} --auto --merge
