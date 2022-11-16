@@ -1,3 +1,15 @@
+# v0.0.46 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- Set changelog base branch ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.45 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
