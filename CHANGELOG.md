@@ -1,3 +1,16 @@
+# v0.0.47 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- Remove prereleaseBranches ([@phamviet](https://github.com/phamviet))
+- pushToBaseBranch ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.46 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
