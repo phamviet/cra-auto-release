@@ -7,8 +7,8 @@
   "labels": [
         {
           "name": "pushToBaseBranch",
+          "changelogTitle": "⚠️ Pushed to `develop`",
           "description": "N/A",
-          "releaseType": "patch",
           "color": "#0E8A16"
         },
         {
