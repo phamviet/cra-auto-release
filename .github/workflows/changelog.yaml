@@ -24,15 +24,12 @@ jobs:
     - name: Prepare repository
       run: git fetch --depth 100 --tags
 
-    - name: Prepare auto
+    - name: Install auto
       run: |
-        npm install --global --no-fund --no-audit auto@10.37.6
+        npm install --global --no-fund --no-audit auto@10.37.6 auto-plugin-package-json
 
     - name: "Make changelog"
       run: |
-        which auto
-        export PATH="$(npm bin -g):$PATH"
-        set -xe
         if auto label --pr ${{github.event.number}} --exists release; then
           auto changelog
           git push
