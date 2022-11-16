@@ -1,3 +1,31 @@
+# v0.0.50 (Wed Nov 16 2022)
+
+#### ⚠️ Pushed to `develop`
+
+- eeee ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.49 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- 123 ([@phamviet](https://github.com/phamviet))
+- aaa ([@phamviet](https://github.com/phamviet))
+- node default ([@phamviet](https://github.com/phamviet))
+- Remove releaseType ([@phamviet](https://github.com/phamviet))
+- Remove default ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.49 (Wed Nov 16 2022)
 
 #### ⚠️ Pushed to `develop`
