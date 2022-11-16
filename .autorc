@@ -7,7 +7,6 @@
   "labels": [
         {
           "name": "pushToBaseBranch",
-          "default": true,
           "changelogTitle": "⚠️ Pushed to `develop`",
           "description": "N/A",
           "color": "#0E8A16"
