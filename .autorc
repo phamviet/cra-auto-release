@@ -3,7 +3,6 @@
     ["package-json", {"publishScript":"./.scripts/publish.sh"}],
   ],
   "baseBranch": "main",
-  "prereleaseBranches": "develop",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
         {
