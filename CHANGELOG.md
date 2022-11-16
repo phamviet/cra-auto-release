@@ -1,3 +1,15 @@
+# v0.0.48 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- pushToBaseBranch ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.47 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
