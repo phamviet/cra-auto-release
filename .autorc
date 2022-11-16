@@ -6,12 +6,6 @@
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
         {
-          "name": "pushToBaseBranch",
-          "changelogTitle": "⚠️ Pushed to `develop`",
-          "description": "N/A",
-          "color": "#0E8A16"
-        },
-        {
           "name": "release",
           "description": "Increment the patch version when merged",
           "releaseType": "patch",
