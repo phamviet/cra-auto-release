@@ -24,23 +24,19 @@ jobs:
     - name: Prepare repository
       run: git fetch --depth 100 --tags
 
-    - uses: actions/setup-node@v3
-      with:
-        node-version: 16
-
     - name: Prepare auto
       run: |
-        yarn global add auto@10.37.6 auto-plugin-package-json
+        npm install --no-fund --no-audit auto@10.37.6
 
     - name: "Make changelog"
       run: |
+        auto=./node_modules/.bin/auto
         set -xe
-        PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
-        if yarn auto label --pr $PR_NUMBER --exists release; then
-          yarn auto changelog
+        if $auto label --pr ${{github.event.number}} --exists release; then
+          $auto changelog
           git push
           sleep 3
-          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge $PR_NUMBER --auto --merge
+          GH_TOKEN=$VIET_PAT_TOKEN gh pr merge ${{github.event.number}} --auto --merge
           echo The PR should be merged
         else
           echo [Skipped] No "release" label found
