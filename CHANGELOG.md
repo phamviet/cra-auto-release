@@ -1,3 +1,15 @@
+# v0.0.43 (Wed Nov 16 2022)
+
+#### 🐛 Bug Fix
+
+- feat: add conventional-commits ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.42 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
