@@ -3,8 +3,15 @@
     ["package-json", {"publishScript":"./.scripts/publish.sh"}],
   ],
   "baseBranch": "main",
+  "prereleaseBranches": "develop",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
+        {
+          "name": "pushToBaseBranch",
+          "description": "N/A",
+          "releaseType": "patch",
+          "color": "#0E8A16"
+        },
         {
           "name": "release",
           "description": "Increment the patch version when merged",
