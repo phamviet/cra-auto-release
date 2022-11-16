@@ -1,3 +1,16 @@
+# v0.0.41 (Wed Nov 16 2022)
+
+#### 🚀 New Feature
+
+- no sleep ([@phamviet](https://github.com/phamviet))
+- retry ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.40 (Wed Nov 16 2022)
 
 #### 🚀 New Feature
