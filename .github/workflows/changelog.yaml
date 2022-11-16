@@ -34,7 +34,6 @@ jobs:
           auto changelog
           git push
           GH_TOKEN=$VIET_PAT_TOKEN retry -n 5 -- gh pr merge ${{github.event.number}} --auto --merge
-          echo The PR should be merged
         else
           echo [Skipped] No "release" label found
           exit 0

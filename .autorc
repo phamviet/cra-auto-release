@@ -1,17 +1,11 @@
 {
   "plugins": [
-    ["package-json", {"publishScript":"./.scripts/publish.sh"}]
+    ["package-json", {"publishScript":"./.scripts/publish.sh"}],
+    ["conventional-commits", { "defaultReleaseType": "patch", "preset": "angular" }]
   ],
   "baseBranch": "main",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
-      {
-          "name": "feat",
-          "changelogTitle": "🚀 New Feature",
-          "description": "Increment the patch version when merged",
-          "releaseType": "patch",
-          "color": "#1D76DB"
-        },
         {
           "name": "release",
           "description": "Increment the patch version when merged",
