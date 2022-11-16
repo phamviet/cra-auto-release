@@ -1,3 +1,16 @@
+# v0.0.38 (Wed Nov 16 2022)
+
+#### 🚀 New Feature
+
+- no node installation ([@phamviet](https://github.com/phamviet))
+- ${{github.event.number}} ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.37 (Tue Nov 15 2022)
 
 #### 🚀 New Feature
