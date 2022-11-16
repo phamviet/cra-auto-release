@@ -10,7 +10,6 @@
           "changelogTitle": "⚠️ Pushed to `develop`",
           "description": "N/A 123",
           "releaseType": "patch",
-          "default": true,
           "color": "#0E8A16"
         },
         {
