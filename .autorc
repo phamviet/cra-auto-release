@@ -6,14 +6,14 @@
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
         {
-          "name": "feature",
-          "changelogTitle": "⚠️ Added",
-          "releaseType": "patch"
-        },
-        {
           "name": "pushToBaseBranch",
           "changelogTitle": "⚠️ Updated",
           "releaseType": "patch"
-        }
+        },
+        {
+            "name": "feature",
+            "changelogTitle": "🚀️ Added",
+            "releaseType": "patch"
+        },
     ]
 }
