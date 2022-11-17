@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "auto": "^10.37.6",
+    "@auto-it/omit-commits": "^10.37.6",
     "auto-plugin-package-json": "^0.0.4"
   }
 }
