@@ -4,7 +4,6 @@
     ["omit-commits", {"username":["github-actions[bot]"], "subject": ["WIP"]}]
   ],
   "baseBranch": "main",
-  "setup": "yarn global add auto@10.37.6 @auto-it/omit-commits@10.37.6 auto-plugin-package-json",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
         {
