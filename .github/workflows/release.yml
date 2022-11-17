@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  auto:
+  release:
     runs-on: ubuntu-latest
     if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     env:
@@ -19,27 +19,15 @@ jobs:
       - name: Prepare repository
         run: git fetch --depth 10 --tags
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: yarn-deps-01-${{ hashFiles('yarn.lock') }}
-          restore-keys: |
-            yarn-deps-01-${{ hashFiles('yarn.lock') }}
-
-      - name: Setup auto
+      - name: Set up auto
         run: |
           yarn global add auto@10.37.6 @auto-it/omit-commits@10.37.6 auto-plugin-package-json
 
       - name: "Manual release"
         if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'master' }}
         run: |
-          yarn auto latest  --no-changelog --verbose
+          auto latest --no-changelog --verbose
 
       - name: Auto
         run: |
-          yarn auto latest --no-changelog
+          auto latest --only-publish-with-release-label --no-changelog --verbose
