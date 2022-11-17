@@ -1,6 +1,7 @@
 {
   "plugins": [
-    ["package-json", {"publishScript":"./.scripts/publish.sh"}]
+    ["package-json", {"publishScript":"./.scripts/publish.sh"}],
+    ["omit-commits", {"username":["github-actions[bot]"], "subject": ["WIP"]}]
   ],
   "baseBranch": "main",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
@@ -8,20 +9,12 @@
         {
           "name": "feature",
           "changelogTitle": "⚠️ Added",
-          "releaseType": "patch",
-          "color": "#006B75"
+          "releaseType": "patch"
         },
         {
           "name": "pushToBaseBranch",
           "changelogTitle": "⚠️ Updated",
-          "releaseType": "patch",
-          "color": "#0E8A16"
-        },
-        {
-          "name": "release",
-          "description": "Create a release when this pr is merged",
-          "releaseType": "patch",
-          "color": "#0E8A16"
+          "releaseType": "patch"
         }
     ]
 }

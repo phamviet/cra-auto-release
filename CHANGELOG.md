@@ -1,3 +1,19 @@
+# v0.0.56 (Thu Nov 17 2022)
+
+#### ⚠️ Added
+
+- feat: Setup auto ([@phamviet](https://github.com/phamviet))
+
+#### 🐛 Bug Fix
+
+- fix Found unknown configuration keys setup ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.55 (Wed Nov 16 2022)
 
 #### 🐛 Bug Fix
