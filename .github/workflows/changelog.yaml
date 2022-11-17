@@ -24,9 +24,10 @@ jobs:
     - name: Prepare repository
       run: git fetch --depth 100 --tags
 
-    - name: Install auto
+    - name: Setup auto
       run: |
-        yarn global add auto@10.37.6 auto-plugin-package-json retry-cli
+        exec $(cat .autorc | jq -r .setup)
+        yarn add retry-cli
 
     - name: "Make changelog"
       run: |

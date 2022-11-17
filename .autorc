@@ -1,27 +1,21 @@
 {
   "plugins": [
-    ["package-json", {"publishScript":"./.scripts/publish.sh"}]
+    ["package-json", {"publishScript":"./.scripts/publish.sh"}],
+    ["omit-commits", {"username":["github-actions[bot]"], "subject": ["WIP"]}]
   ],
   "baseBranch": "main",
+  "setup": "yarn global add auto@10.37.6 @auto-it/omit-commits@10.37.6 auto-plugin-package-json",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
         {
           "name": "feature",
           "changelogTitle": "⚠️ Added",
-          "releaseType": "patch",
-          "color": "#006B75"
+          "releaseType": "patch"
         },
         {
           "name": "pushToBaseBranch",
           "changelogTitle": "⚠️ Updated",
-          "releaseType": "patch",
-          "color": "#0E8A16"
-        },
-        {
-          "name": "release",
-          "description": "Create a release when this pr is merged",
-          "releaseType": "patch",
-          "color": "#0E8A16"
+          "releaseType": "patch"
         }
     ]
 }
