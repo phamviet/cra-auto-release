@@ -1,3 +1,16 @@
+# v0.0.57 (Thu Nov 17 2022)
+
+#### ⚠️ Added
+
+- --verbose ([@phamviet](https://github.com/phamviet))
+- Simplified release ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.56 (Thu Nov 17 2022)
 
 #### ⚠️ Added
