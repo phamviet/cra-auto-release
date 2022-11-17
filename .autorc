@@ -1,6 +1,6 @@
 {
   "plugins": [
-    ["package-json", {"publishScript":"./.scripts/publish.sh"}]
+    ["atlas", {"publishScript":"./.scripts/publish.sh"}]
   ],
   "baseBranch": "master",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",

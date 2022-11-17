@@ -21,7 +21,7 @@ jobs:
 
       - name: Set up auto
         run: |
-          yarn global add auto@10.37.6 @auto-it/omit-commits@10.37.6 auto-plugin-package-json
+          yarn global add auto@10.37.6 auto-plugin-atlas
 
       - name: Manual release
         if: ${{ github.event_name == 'workflow_dispatch' && github.ref_name == 'master' }}
