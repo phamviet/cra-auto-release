@@ -1,9 +1,8 @@
 {
   "plugins": [
-    ["package-json", {"publishScript":"./.scripts/publish.sh"}],
-    ["omit-commits", {"username":["github-actions[bot]"], "subject": ["WIP"]}]
+    ["package-json", {"publishScript":"./.scripts/publish.sh"}]
   ],
-  "baseBranch": "main",
+  "baseBranch": "master",
   "author": "github-actions[bot] <github-actions[bot]@users.noreply.github.com>",
   "labels": [
         {

@@ -2,6 +2,20 @@
 
 #### ⚠️ Added
 
+- Fuck @auto-it/omit-commits ([@phamviet](https://github.com/phamviet))
+- release-1123-2022-11-17 [#46](https://github.com/phamviet/cra-auto-release/pull/46) ([@phamviet](https://github.com/phamviet) [@github-actions[bot]](https://github.com/github-actions[bot]))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
+# v0.0.58 (Thu Nov 17 2022)
+
+#### ⚠️ Added
+
 - @auto-it/omit-commits ([@phamviet](https://github.com/phamviet))
 
 #### Authors: 1
