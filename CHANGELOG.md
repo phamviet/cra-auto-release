@@ -1,3 +1,15 @@
+# v0.0.58 (Thu Nov 17 2022)
+
+#### ⚠️ Added
+
+- @auto-it/omit-commits ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.57 (Thu Nov 17 2022)
 
 #### ⚠️ Added
