@@ -1,3 +1,15 @@
+# v0.0.59 (Thu Nov 17 2022)
+
+#### ⚠️ Added
+
+- Manual release ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.58 (Thu Nov 17 2022)
 
 #### ⚠️ Added
