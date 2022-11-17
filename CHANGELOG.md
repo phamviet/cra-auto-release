@@ -1,3 +1,16 @@
+# v0.0.60 (Thu Nov 17 2022)
+
+#### ⚠️ Added
+
+- Testing atlas plugin ([@phamviet](https://github.com/phamviet))
+- Remove @auto-it/omit-commits@10.37.6 ([@phamviet](https://github.com/phamviet))
+
+#### Authors: 1
+
+- Viet Pham ([@phamviet](https://github.com/phamviet))
+
+---
+
 # v0.0.59 (Thu Nov 17 2022)
 
 #### ⚠️ Added
